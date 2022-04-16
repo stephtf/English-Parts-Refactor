@@ -2466,69 +2466,69 @@ a:hover span {
   .footer .disclaimer-panel .col-md-12 #disclaimer-icon {
     display: none;
   }
-  /* }.footer .disclaimer-panel .col-md-12 #disclaimer-icon {
-    background-image: url(images/icons/disclaimer-white.png);
-  } */
-  .footer .copyright-panel {
-    background-color: #fff;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .footer .copyright-panel a,
-  .footer .copyright-panel div,
-  .footer .copyright-panel span {
-    color: #fff !important;
-  }
-  /* .footer .spLogo {
-    background: transparent url(images/logos/simplepart-logo-light.png) no-repeat;
-    height: 12px;
-    background-size: 250px;
-  } */
-  .btn:active {
-    box-shadow: none!important;
-  }
-  .content-panel {
-    background-color: #fff !important;
-    border-radius: 0!important;
-    box-shadow: none!important;
-    border: none!important;
-    border-width: 1px!important;
-    border-color: #f2f2f2 !important;
-    border-style: solid!important;
-    border-top: 3px solid #9e1e23 !important;
-  }
-  .content-panel > .panel-heading + .panel-body {
-    padding-top: 0;
-  }
-  .content-panel .panel-heading {
-    background: 0 0!important;
-    border: none!important;
-  }
-  .content-panel .panel-heading .panel-title {
-    text-transform: capitalize!important;
-    font-family: Verdana, sans-serif !important;
-    font-weight: 700!important;
-    font-size: 18px!important;
-    text-align: left!important;
-  }
-  .panel {
-    border-radius: 0!important;
-    box-shadow: none!important;
-    border: none;
-  }
-  .list-group .list-group-item {
-    background-color: transparent;
-  }
-  .quickStartContentWrap {
-    text-align: center;
-  }
-  .interior .dealer-link {
-    text-align: right;
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-  }
+}
+.footer .disclaimer-panel .col-md-12 #disclaimer-icon {
+  background-image: url('../public/images/icons/disclaimer-white.png');
+}
+.footer .copyright-panel {
+  background-color: #fff;
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer .copyright-panel a,
+.footer .copyright-panel div,
+.footer .copyright-panel span {
+  color: #fff !important;
+}
+.footer .spLogo {
+  background: transparent url('../public/images/logos/simplepart-logo-dark.png') no-repeat;
+  height: 12px;
+  background-size: 250px;
+}
+.btn:active {
+  box-shadow: none!important;
+}
+.content-panel {
+  background-color: #fff !important;
+  border-radius: 0!important;
+  box-shadow: none!important;
+  border: none!important;
+  border-width: 1px!important;
+  border-color: #f2f2f2 !important;
+  border-style: solid!important;
+  border-top: 3px solid #9e1e23 !important;
+}
+.content-panel > .panel-heading + .panel-body {
+  padding-top: 0;
+}
+.content-panel .panel-heading {
+  background: 0 0!important;
+  border: none!important;
+}
+.content-panel .panel-heading .panel-title {
+  text-transform: capitalize!important;
+  font-family: Verdana, sans-serif !important;
+  font-weight: 700!important;
+  font-size: 18px!important;
+  text-align: left!important;
+}
+.panel {
+  border-radius: 0!important;
+  box-shadow: none!important;
+  border: none;
+}
+.list-group .list-group-item {
+  background-color: transparent;
+}
+.quickStartContentWrap {
+  text-align: center;
+}
+.interior .dealer-link {
+  text-align: right;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 @media (min-width: 992px) {
   .interior .dealer-link {

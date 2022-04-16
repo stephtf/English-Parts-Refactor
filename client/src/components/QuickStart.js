@@ -36,7 +36,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/body.jpg"
+                        src="body.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Body Parts"
                       />
@@ -53,7 +53,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/brake-system.jpg"
+                        src="brake-system.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Brake System Parts"
                       />
@@ -70,7 +70,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/cables.jpg"
+                        src="cables.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Cables"
                       />
@@ -87,7 +87,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/car-care.jpg"
+                        src="car-care.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Car Care, Tools and Shop Supplies"
                       />
@@ -106,7 +106,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/competition-parts.jpg"
+                        src="competition-parts.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Competition Parts"
                       />
@@ -123,7 +123,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/tops-covers.jpg"
+                        src="tops-covers.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Convertible Tops, Hard Tops and Tonneau Covers"
                       />
@@ -142,7 +142,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/cooling.jpg"
+                        src="cooling.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Cooling System Parts"
                       />
@@ -159,7 +159,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/electrical-components.jpg"
+                        src="electrical-components.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Electrical Components"
                       />
@@ -178,7 +178,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/engine-driveline.jpg"
+                        src="engine-driveline.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Engine and Driveline Parts"
                       />
@@ -197,7 +197,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/exhaust-emission.jpg"
+                        src="exhaust-emission.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Exhaust and Emissions"
                       />
@@ -216,7 +216,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/exterior.jpg"
+                        src="exterior.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Exterior Parts"
                       />
@@ -233,7 +233,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/fuel-system.jpg"
+                        src="fuel-system.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Fuel Systems"
                       />
@@ -250,7 +250,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/interior.jpg"
+                        src="interior.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Interior Parts"
                       />
@@ -267,7 +267,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/maintenance.jpg"
+                        src="maintenance.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Maintenance Parts"
                       />
@@ -284,7 +284,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/oil-system.jpg"
+                        src="oil-system.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Oil System Parts"
                       />
@@ -301,7 +301,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/performance-handling.jpg"
+                        src="performance-handling.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Performance &amp; Handling"
                       />
@@ -320,7 +320,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/suspension.jpg"
+                        src="suspension.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Suspension Parts"
                       />
@@ -337,7 +337,7 @@ const QuickStart = () => {
                   <div className="qsCategoryWrapper">
                     <div className="qsImgWrapper">
                       <img
-                        src="./files/transmission.jpg"
+                        src="transmission.jpg"
                         aria-hidden="true"
                         alt="Shop OEM Transmission, Gearbox and Clutch Parts"
                       />
