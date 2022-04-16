@@ -37,78 +37,90 @@ const Search = () => {
                 </span>
               </div>
             </div>
-          </div>
-          <div
-            id="MyGarage"
-            className="utility-bar__section utility-bar__select-vehicle"
-          >
-            <div id="selectVehicle" className="utility-bar__element">
-              <div
-                id="selectVehicleText"
-                title="My Garage"
-                className="utility-bar__select-vehicle-text"
-              ></div>
-              Select Your Vehicle
-            </div>{" "}
-            <button
-              type="button"
-              id="UtilityBarToggleButton"
-              title="Select Vehicle Button"
-              aria-label="Select Vehicle Button"
-              className="utility-bar__select-vehicle-button"
+            <div
+              id="MyGarage"
+              className="utility-bar__section utility-bar__select-vehicle"
             >
-              <span className="icon-arrow-down select-vehicle-icon"></span>
-            </button>
-          </div>
-          {/* <div className="boxTriangle" style="display: none;"> */}
-          <span className="top-bot my-garage-top"></span>
-          {/* <div className="garage__container" style="display: none;"> */}
-          <div id="garageContainer" className="garage garage-vehicles">
-            <div className="garage__header">
-              My Garage
-              <button
-                type="button"
-                aria-label="close"
-                className="close my-garage__close"
-              >
-                <span aria-hidden="true"></span>
-              </button>
-            </div>{" "}
-            <div className="garage__content no-garage-content">
-              {/* <div className="garage__selection" style="display: none;"> */}
-              <span aria-hidden="true" className="icon-partman"></span>{" "}
-              <div className="garage__help">
-                You can edit the name of your vehicle by clicking the pencil
-                icon on the right.
-              </div>{" "}
-              <div className="garage-vehicles"></div>{" "}
-              <div className="garage__additions no-vehicles">
-                <div className="vehicle-selection-addition">
-                  <button type="button" className="garage__select-vehicle">
-                    + Add New Vehicle
-                  </button>
+              <div id="selectVehicle" className="utility-bar__element">
+                <div
+                  id="selectVehicleText"
+                  title="My Garage"
+                  className="utility-bar__select-vehicle-text"
+                >
+                  Select Your Vehicle
+                </div>{" "}
+                <button
+                  type="button"
+                  id="UtilityBarToggleButton"
+                  title="Select Vehicle Button"
+                  aria-label="Select Vehicle Button"
+                  className="utility-bar__select-vehicle-button"
+                >
+                  <span className="icon-arrow-down select-vehicle-icon"></span>
+                </button>
+              </div>
+              <div className="boxTriangle">
+                <span className="top-bot my-garage-top"></span>
+              </div>
+              <div className="garage__container">
+                <div id="garageContainer" className="garage garage-vehicles">
+                  <div className="garage__header">
+                    My Garage
+                    <button
+                      type="button"
+                      aria-label="close"
+                      className="close my-garage__close"
+                    >
+                      <span aria-hidden="true"></span>
+                    </button>
+                  </div>{" "}
+                  <div className="garage__content no-garage-content">
+                    <div className="garage__selection"></div>
+                    <span
+                      aria-hidden="true"
+                      className="icon-partman"
+                    ></span>{" "}
+                    <div className="garage__help">
+                      You can edit the name of your vehicle by clicking the
+                      pencil icon on the right.
+                    </div>{" "}
+                    <div className="garage-vehicles"></div>{" "}
+                    <div className="garage__additions no-vehicles">
+                      <div className="vehicle-selection-addition">
+                        <button
+                          type="button"
+                          className="garage__select-vehicle"
+                        >
+                          + Add New Vehicle
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+            </div>{" "}
+            <div
+              className="utility-bar__section"
+              id="CartWidgetUtility"
+              title="Cart"
+            >
+              <button
+                type="button"
+                id="CartWidgetHeaderButton"
+                className="utility-bar__section utility-bar__element utility-bar__cart cart-widget-button"
+              >
+                <span className="cart-widget-button__icon icon-basket"></span>{" "}
+                <span
+                  id="NumCartItems"
+                  aria-label="0 in Cart. Click to view Cart"
+                  className="cart-widget-button__number badge-normal"
+                >
+                  0
+                </span>
+              </button>
             </div>
           </div>{" "}
-        </div>{" "}
-      </div>
-
-      <div className="utility-bar__section" id="CartWidgetUtility" title="Cart">
-        <button
-          type="button"
-          id="CartWidgetHeaderButton"
-          className="utility-bar__section utility-bar__element utility-bar__cart cart-widget-button"
-        >
-          <span className="cart-widget-button__icon icon-basket"></span>{" "}
-          <span
-            id="NumCartItems"
-            aria-label="0 in Cart. Click to view Cart"
-            className="cart-widget-button__number badge-normal"
-          >
-            0
-          </span>
-        </button>
+        </div>
       </div>
     </div>
   );

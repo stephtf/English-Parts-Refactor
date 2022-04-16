@@ -19,7 +19,7 @@ const SelectVehicle = () => {
                 href="#top"
                 title="Shop OEM Austin Healey Parts"
               >
-                <img src="./files/austin-healey.png" alt="" />
+                <img src="austin-healey.png" alt="" />
                 <div>Austin Healey</div>
               </a>
 
@@ -28,12 +28,12 @@ const SelectVehicle = () => {
                 href="#top"
                 title="Shop OEM Jaguar Parts"
               >
-                <img src="./files/jaguar.png" alt="" />
+                <img src="jaguar.png" alt="" />
                 <div>Jaguar</div>
               </a>
 
               <a class="seoLinkItem Make" href="#top" title="Shop OEM MG Parts">
-                <img src="./files/mg.png" alt="" />
+                <img src="mg.png" alt="" />
                 <div>MG</div>
               </a>
 
@@ -42,7 +42,7 @@ const SelectVehicle = () => {
                 href="#top"
                 title="Shop OEM Triumph Parts"
               >
-                <img src="./files/triumph.png" alt="" />
+                <img src="triumph.png" alt="" />
                 <div>Triumph</div>
               </a>
             </div>
