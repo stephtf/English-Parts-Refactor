@@ -25,14 +25,14 @@ const Search = () => {
                   className="form-control utility-bar__search-input"
                   placeholder="Search by Keywords, Part Numbers or VIN"
                   autocomplete="off"
-                ></input>
+                />
                 <span className="input-group-btn" title="Search Button">
                   <button
                     type="button"
                     className="btn btn-default utility-bar__search-button"
                     id="searchBtn"
                   >
-                    Go{" "}
+                    Go
                   </button>
                 </span>
               </div>
@@ -40,31 +40,19 @@ const Search = () => {
             <div
               id="MyGarage"
               className="utility-bar__section utility-bar__select-vehicle"
-            >
-              <div id="selectVehicle" className="utility-bar__element">
-                <div
+            ><div id="selectVehicle" className="utility-bar__element"><div
                   id="selectVehicleText"
                   title="My Garage"
                   className="utility-bar__select-vehicle-text"
                 >
                   Select Your Vehicle
-                </div>{" "}
-                <button
+                </div><button
                   type="button"
                   id="UtilityBarToggleButton"
                   title="Select Vehicle Button"
                   aria-label="Select Vehicle Button"
                   className="utility-bar__select-vehicle-button"
-                >
-                  <span className="icon-arrow-down select-vehicle-icon"></span>
-                </button>
-              </div>
-              <div className="boxTriangle">
-                <span className="top-bot my-garage-top"></span>
-              </div>
-              <div className="garage__container">
-                <div id="garageContainer" className="garage garage-vehicles">
-                  <div className="garage__header">
+                ><span className="icon-arrow-down select-vehicle-icon"></span></button></div><div className="boxTriangle"><span className="top-bot my-garage-top"></span></div><div className="garage__container"><div id="garageContainer" className="garage garage-vehicles"><div className="garage__header">
                     My Garage
                     <button
                       type="button"
@@ -73,13 +61,13 @@ const Search = () => {
                     >
                       <span aria-hidden="true"></span>
                     </button>
-                  </div>{" "}
+                  </div>
                   <div className="garage__content no-garage-content">
                     <div className="garage__selection"></div>
                     <span
                       aria-hidden="true"
                       className="icon-partman"
-                    ></span>{" "}
+                    ></span> 
                     <div className="garage__help">
                       You can edit the name of your vehicle by clicking the
                       pencil icon on the right.
